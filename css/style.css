@@ -983,7 +983,7 @@ span{
 }
 
 /* /////////////////////////////////////////////// */
-/*                    Skills.                         */
+/*                    Skills.                      */
 /* /////////////////////////////////////////////// */
 .skillsHero{
     border: 1px solid yellow;
@@ -1070,3 +1070,69 @@ table{
     margin: 0rem 3rem;
 
 }
+/* /////////////////////////////////////////////// */
+/*                    Download-CV.                 */
+/* /////////////////////////////////////////////// */
+
+/* /////////////////////////////////////////////// */
+/*                    Projecten.                   */
+/* /////////////////////////////////////////////// */
+
+.projectenHero{
+    background-color: gray;
+    border: 1px solid white;
+    height: 300px;
+}
+.projectenContent{
+    border: 1px solid white;
+    height: 1400px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    .projectenIMG{
+        border: 1px solid yellow;
+        height: 90%;
+        width: 35%;
+        gap: 100px;
+
+
+        .imgBox{
+            margin: 2rem;
+            border: 1px solid orange;
+            height: 20%;
+
+
+        }
+    }
+}
+.projectenBox{
+    border: 1px solid white;
+    height: 90%;
+    width: 60%;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .projectenItem{
+        border: 1px solid red;
+        height: 50%;
+        width: 95%;
+        margin: 2rem;
+
+        header{
+            border: 1px solid blue;
+            height: 30%;
+            width: 100%;
+        }
+        main{
+            border: 1px solid green;
+            height: 70%;
+            width: 100%;
+        }
+
+    }
+}
+
