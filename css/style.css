@@ -1314,9 +1314,27 @@ table{
 /* /////////////////////////////////////////////// */
 
 .projectenHero{
-    background-color: gray;
-    border: 1px solid white;
+    /* border: 1px solid yellow; */
+    background-image: url(/img/pngtree-a-blue-and-purple-background-with-black-image_15629494.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 300px;
+    background-color: #161515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div{
+        /* border: 1px solid white; */
+        backdrop-filter: blur(50px);
+        border-radius: 20px;
+        box-shadow: 10px 10px 30px var(--accent);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 100px;
+    }
 }
 .projectenContent{
     /* border: 1px solid white; */
