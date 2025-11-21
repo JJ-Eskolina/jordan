@@ -30,19 +30,66 @@
     </header>
     <main>
         <section class="cvHero">
-         
+            <div>
+            <h1><span id="Skills">Download cv</span></h1>
+          </div>
         </section>
         <section class="cvContent">
             <div class="cvBox">
-                <header>
-                    <h2>Download mijn CV</h2>
-                </header>
-                <main>
-                    <p>Klik op de onderstaande knop om mijn CV te downloaden in PDF-formaat.</p>
-                    <a href="./documents/mijn_cv.pdf" download class="downloadButton">Download CV</a>
-                </main>
+                <div class="cv-inner" role="region" aria-label="Curriculum Vitae container">
+                    <header>
+                        <h1 class="sr-only">Curriculum Vitae</h1>
+                    </header>
+
+                    <div class="cv-scroll">
+                        <table class="cv-table" aria-label="Curriculum Vitae">
+                            <caption>Curriculum Vitae — Preview</caption>
+                            <thead>
+                                <tr>
+                                    <th scope="col">Period</th>
+                                    <th scope="col">Role / Institution</th>
+                                    <th scope="col">Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th colspan="3" class="section-heading">Personal</th>
+                                </tr>
+                                <tr id="color">
+                                    <td></td>
+                                    <td>Name</td>
+                                    <td>Jordan Eskolina</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Location</td>
+                                    <td>Rozenburg, Nederlands</td>
+                                </tr>
+                                <tr id="color">
+                                    <td></td>
+                                    <td>Contact</td>
+                                    <td><a href="mailto:you@example.com">lol@voorbeeld.com</a> · +31 6 12 34 56 78</td>
+                                </tr>
+
+                                <tr>
+                                    <th colspan="3" class="section-heading">Profile</th>
+                                </tr>
+                                <tr id="color">
+                                    <td></td>
+                                    <td>Summary</td>
+                                    <td>Concise personal summary for preview purposes.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <footer class="cv-footer">Last updated: 2024</footer>
+                </div>
+            </div>  
+            <div class="cvInfo">
+                    <p>This is a short preview of your CV. It gives a quick look at your experience, skills, and background. If you want the complete document with all sections, detailed descriptions, and extra information, just hit the button below to download the full version.</p>
+                    <a href="./files/Jordan_Eskolina_CV.pdf" download class="cv-download-button">Download Full CV</a>
             </div>
-            <div class="cvInfo"></div>
         </section>
     </main>
     <footer class="footer">

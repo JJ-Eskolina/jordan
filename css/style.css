@@ -182,7 +182,7 @@ span{
             }
         }  
         footer{
-            border: 1px solid green;
+            /* border: 1px solid green; */
             height: 70%;
             width: 60%;
             margin: 1rem 0rem;
@@ -244,7 +244,7 @@ span{
     text-align: center;
     padding: 1rem;
     background-color: var(--BG);
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     color: white;
     a{
         color: white;
@@ -731,25 +731,27 @@ span{
 
     .werkinfo{
         display: flex;
-        border: 1px solid purple;
+        /* border: 1px solid purple; */
         height: 200px;
         width: 80%;
         margin: 2rem;
+        gap: 3rem;
+
         background-color: #17171700;
         div{
-            border: 1px solid brown;
+            /* border: 1px solid brown; */
             height: 100%;
             width: 100%;
             header{
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                border: 1px solid orange;
+                /* border: 1px solid orange; */
                 height: 50px;
                 width: 100%;
             }
             footer{
-                border: 1px solid green;
+                /* border: 1px solid green; */
                 height: 75%;
                 width: 100%;
             }
@@ -760,50 +762,116 @@ span{
 /*                  Contact                        */
 /* /////////////////////////////////////////////// */
 .social-media{ 
-    border: 1px solid yellow;
-    background-image: url(/img/DfzT.gif);
+    /* border: 1px solid yellow; */
+    background-color: black;
+    background-image: url(/img/6fffa37dc74b93131ab82ac94b931af7.gif);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
     height: 100vh;
-    background-color: var(--BG);
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    
     .links{
         display: flex;
-        border: 1px solid red;
-        height: 500px;
-        width: 40%;
+        /* border: 1px solid red; */
+        border-radius: 20px;
+        backdrop-filter: blur(50px);
+        height: 600px;
+        width: 50%;
         display: flex;
         flex-direction: column;
+        /* padd: 2rem; */
         #first{
-            border: 1px solid blue;
-            height: 300px;
+            /* border: 1px solid blue; */
+            height: 100%;
             width: 100%;
             display: flex;
             gap: 1rem;
-            button{
-                border: 1px solid green;
-                height: 250px;
-                width: 100%;
-            }
+            padding: 2rem;
+
+              button {
+                /* border: 1px solid green; */
+                height: 100%;
+                width: 300px;
+                 }
+
+                #youtube{
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-image: url(/img/Unknown.png);
+                    background-color: black;
+                    border-radius: 30px;
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                }
+                #youtube:hover{
+                    transform: scale(1.1);
+                    box-shadow: 10px 10px 30px rgba(255, 255, 255, 1);
+                }
+                    #github{
+                    background-image: url(/img/Unknown-1.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-color: black;
+                    border-radius: 30px;
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                }
+                #github:hover{
+                    transform: scale(1.1);
+                    box-shadow: 10px 10px 30px rgba(255, 255, 255, 1);
+                }
         }
         #second{
-            border: 1px solid blue;
-            height: 300px;
+            /* border: 1px solid blue; */
+            height: 100%;
             width: 100%;
             display: flex;
             gap: 1rem;
+            padding: 2rem;
+
             button{
-                border: 1px solid green;
-                height: 250px;
-                width: 100%;
+                /* border: 1px solid green; */
+                height: 100%;
+                width: 300px;
             }
+                #instagram{
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-image: url(/img/Unknown.jpeg);
+                    background-color: black;
+                    border-radius: 30px;
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                }
+                #instagram:hover{
+                    transform: scale(1.1);
+                    box-shadow: 10px 10px 30px rgba(255, 255, 255, 1);
+                }
+                #linkedin{
+                    background-image: url(/img/Unknown-2.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-color: black;
+                    border-radius: 30px;
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                }
+                #linkedin:hover{
+                    transform: scale(1.1);
+                    box-shadow: 10px 10px 30px rgba(255, 255, 255, 1);
+                }
         }
     }
     .form{
-        border: 1px solid red;
+        /* border: 1px solid red; */
+        backdrop-filter: blur(50px);
+        border-radius: 20px;
+        box-shadow: 10px 10px 30px rgba(255, 255, 255, 0.5);
         height: 600px;
         width: 50%;
         display: flex;
@@ -853,7 +921,7 @@ span{
 /* /////////////////////////////////////////////// */
 .opleidingHero{
     border: 1px solid rgb(0, 0, 0);
-    height: 600px;
+    height: 300px;
     background-color: black;
     div{
         /* border: 1px solid red; */
@@ -885,12 +953,15 @@ span{
 
 
 .opleiding{
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     height: 600px;
-    background-color: var(--BG);
-    margin: 0rem 1rem;
+    background: linear-gradient(10deg,var(--BG),black);
+    /* margin: 0rem 1rem; */
     .opleidingbox{
-        border: 1px solid red;
+        /* border: 1px solid red; */
+        background-image: url(/img/e5b5e246e6291d2de46ed5350f774e06.gif);
+        background-size: cover;
+        box-shadow: 1px 10px 30px rgba(255, 255, 255, 0.2);
         height: 500px;
         margin: 3rem;
         display: flex;
@@ -901,23 +972,24 @@ span{
             margin: 2rem;
         }
         div{
-            border: 1px solid blue;
+            backdrop-filter: blur(50px);
+            /* border: 1px solid blue; */
             height: 400px;
             width: 100%;
             margin: 2rem;
 
             header{
-                border: 1px solid orange;
+                /* border: 1px solid orange; */
                 height: 25%;    
                 width: 100%;
             }
             main{
-                border: 1px solid brown;
+                /* border: 1px solid brown; */
                 height: 50%;
                 width: 100%;
             }
             footer{
-                border: 1px solid purple;
+                /* border: 1px solid purple; */
                 height: 25%;
                 width: 100%;
             }
@@ -931,29 +1003,53 @@ span{
 
 .faqHero{
     /* border: 1px solid yellow; */
-    height: 400px;
-    background-color: #000000;
-    background-image: url(/img/8e09fbee18924ced0309c467767a2078.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-image: url(/img/colorful-liquid-purple-is-shown-with-black-background_860772-1118.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
+    div{
+        /* border: 1px solid white; */
+        backdrop-filter: blur(50px);
+        border-radius: 20px;
+        box-shadow: 10px 10px 30px var(--accent);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 100px;
+    }
+
 }
 .faqQuestions{
-    border: 1px solid yellow;
+
     height: 1400px;
     background-color: var(--BG);
+    display: flex;
+        justify-content: center;
+        align-items: center;
 
     .faqBox{
-        border: 1px solid red;
+        /* border: 1px solid red; */
+        border-radius: 12px;
+        background-image: url(/img/bd4b45c72d463584da6fd4d4baf309aa.gif);
+        background-size: cover;
+        
         height: 1200px;
         width: 90%;
-        margin: 3rem auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
 
         .faqsection{
-            border: 1px solid blue;
+            /* border: 1px solid blue; */
+            box-shadow: 10px 10px 30px rgba(255, 255, 255, 0.259);
+            border-radius: 20px;
+            backdrop-filter: blur(50px);
             height: 29%;
             width: 90%;
             margin: 2rem ;
@@ -961,18 +1057,31 @@ span{
             justify-content: center;
             align-items: center;
             div{
-                border: 1px solid rgb(239, 9, 9);
+                transition: transform 0.35s cubic-bezier(.2,.8,.2,1), box-shadow 0.35s ease, background-color 0.35s ease;
+                transform-origin: center;
+                will-change: transform, box-shadow;
+                background-color: rgba(255, 255, 255, 0.076);
+                border-radius: 10px;
+                /* border: 1px solid rgb(239, 9, 9); */
+                padding: 2rem;
                 height: 90%;
                 width: 70%;
                 margin: 2rem;
+            }
+            div:hover{
+                transform: translateY(-10px) scale(1.03);
+                box-shadow: 0 18px 40px rgba(0,0,0,0.55), 0 6px 24px rgba(169, 172, 251, 0.994);
+                background-color: rgba(169,172,251,0.03);
+            }
+
 
                 header{
-                    border: 1px solid orange;
+                    /* border: 1px solid orange; */
                     height: 30%;
                     width: 100%;
                 }
                 footer{
-                    border: 1px solid brown;
+                    /* border: 1px solid brown; */
                     height: 70%;
                     width: 100%;
                 }
@@ -980,20 +1089,39 @@ span{
         }
 
     }
-}
+
 
 /* /////////////////////////////////////////////// */
 /*                    Skills.                      */
 /* /////////////////////////////////////////////// */
 .skillsHero{
-    border: 1px solid yellow;
-    height: 200px;
+    /* border: 1px solid yellow; */
+    background-image: url(/img/images.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
     background-color: #161515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div{
+        /* border: 1px solid white; */
+        backdrop-filter: blur(50px);
+        border-radius: 20px;
+        box-shadow: 10px 10px 30px var(--accent);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 100px;
+    }
 }
 .skillsSection {
-    background-color: var(--BG);
-    padding: 20px;
+    background-color: rgba(49, 49, 49, 0.349);
+    padding: 5rem;
     color: white;
+
 
 }
 
@@ -1008,6 +1136,10 @@ span{
 table{
     width: 100%;
     border-collapse: collapse;
+
+    #color{
+        background-color: rgba(0,0,0,0.38);
+    }
 
     th, td{
         padding: 12px 10px;
@@ -1062,17 +1194,120 @@ table{
   transition: width 0.8s ease-in-out;
 }
 
-.AdditionalInfo{
-    background: #444;
-    height: 500px;
-    padding: 20px;
-    color: white;
-    margin: 0rem 3rem;
+.AdditionalInfo {
+    background: linear-gradient(120deg, rgba(68, 68, 68, 0.15), rgba(34, 34, 34, 0.8));
+    padding: 30px;
 
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.additionalinfo:hover {
+    transform: scale(1.02);
 }
 /* /////////////////////////////////////////////// */
 /*                    Download-CV.                 */
 /* /////////////////////////////////////////////// */
+.cvHero{
+    /* border: 1px solid yellow; */
+    background-image: url(/img/images-2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    background-color: #161515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div{
+        /* border: 1px solid white; */
+        backdrop-filter: blur(50px);
+        border-radius: 20px;
+        box-shadow: 10px 10px 30px var(--accent);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 100px;
+    }
+}
+.cvContent{
+    /* border: 1px solid white; */
+    height: auto;
+    background-color: var(--BG);
+    display: flex;
+    padding: 2rem;
+
+
+    .cvBox{
+    border: 1px solid white;
+    height: 100%;
+    width: 80%;
+    margin: 2rem;
+    header{
+        /* border: 1px solid blue; */
+        height: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+#color{
+    background-color: rgba(0,0,0,0.38);
+}
+}
+.cvInfo{
+    /* border: 1px solid red; */
+    height: 400px;
+    width: 80%;
+    margin: 2rem;
+    padding: 1.5rem;
+    border-radius: 12px;
+    background: linear-gradient(135deg, rgba(169,172,251,0.06), rgba(0,0,0,0.38));
+    box-shadow: 0 8px 30px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.02);
+    color: var(--muted);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Paragraphs inside .cvInfo */
+.cvInfo p{
+    margin: 0 0 1rem 0;
+    color: rgba(255,255,255,0.92);
+    line-height: 1.6;
+    font-size: 1rem;
+    letter-spacing: 0.2px;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.6);
+}
+
+/* Links inside .cvInfo styled as prominent buttons */
+.cvInfo a{
+    display: inline-block;
+    text-decoration: none;
+    color: #0b0b0b;
+    background: linear-gradient(90deg, var(--accent), rgba(136,55,55,0.85));
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    font-weight: 700;
+    box-shadow: 0 8px 18px rgba(136,55,55,0.12);
+    transition: transform 180ms ease, box-shadow 180ms ease, opacity 180ms;
+}
+
+/* Hover / active states for the link */
+.cvInfo a:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 14px 34px rgba(136,55,55,0.22);
+    opacity: 0.98;
+}
+.cvInfo a:active{
+    transform: translateY(-1px) scale(0.995);
+}
+}
+
+
 
 /* /////////////////////////////////////////////// */
 /*                    Projecten.                   */
