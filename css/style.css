@@ -250,6 +250,7 @@ span{
         color: white;
     }
 }
+
 /* /////////////////////////////////////////////// */
 /*                  OVER MIJ.                      */
 /* /////////////////////////////////////////////// */
@@ -810,7 +811,7 @@ span{
                 }
                 #youtube:hover{
                     transform: scale(1.1);
-                    box-shadow: 10px 10px 30px rgba(255, 255, 255, 1);
+                    box-shadow: 10px 10px 30px var(--accent);
                 }
                     #github{
                     background-image: url(/img/Unknown-1.png);
@@ -823,7 +824,8 @@ span{
                 }
                 #github:hover{
                     transform: scale(1.1);
-                    box-shadow: 10px 10px 30px rgba(255, 255, 255, 1);
+                    box-shadow: 10px 10px 30px var(--accent);
+
                 }
         }
         #second{
@@ -850,7 +852,7 @@ span{
                 }
                 #instagram:hover{
                     transform: scale(1.1);
-                    box-shadow: 10px 10px 30px rgba(255, 255, 255, 1);
+                    box-shadow: 10px 10px 30px var(--accent);
                 }
                 #linkedin{
                     background-image: url(/img/Unknown-2.png);
@@ -863,7 +865,7 @@ span{
                 }
                 #linkedin:hover{
                     transform: scale(1.1);
-                    box-shadow: 10px 10px 30px rgba(255, 255, 255, 1);
+                    box-shadow: 10px 10px 30px var(--accent);
                 }
         }
     }
@@ -871,7 +873,7 @@ span{
         /* border: 1px solid red; */
         backdrop-filter: blur(50px);
         border-radius: 20px;
-        box-shadow: 10px 10px 30px rgba(255, 255, 255, 0.5);
+        box-shadow: 10px 10px 30px var(--accent);
         height: 600px;
         width: 50%;
         display: flex;
@@ -1310,10 +1312,10 @@ table{
 
 
 /* /////////////////////////////////////////////// */
-/*                    Projecten.                   */
+/*                    hobby's  .                   */
 /* /////////////////////////////////////////////// */
 
-.projectenHero{
+.hobbyHero{
     /* border: 1px solid yellow; */
     background-image: url(/img/pngtree-a-blue-and-purple-background-with-black-image_15629494.jpg);
     background-size: cover;
@@ -1336,14 +1338,14 @@ table{
         height: 100px;
     }
 }
-.projectenContent{
+.hobbyContent{
     /* border: 1px solid white; */
     height: 1400px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 
-    .projectenIMG{
+    .hobbyIMG{
         /* border: 1px solid yellow; */
         height: 90%;
         width: 35%;
@@ -1352,18 +1354,45 @@ table{
         align-items: center;
         justify-content: space-evenly;
 
+             #guitar{
+                border-radius: 20px;
+                box-shadow: 10px 10px 30px var(--accent);
+                background-image: url(/img/photo-1564186763535-ebb21ef5277f.jpeg);
+                background-size: cover;
+                background-position: center;
+            }
+            #cooking{
+                border-radius: 20px;
+                box-shadow: 10px 10px 30px var(--accent);
+                background-image: url(/img/Unknown-2.jpeg);
+                background-size: cover;
+                background-position: center;
+            }
+            #gaming{
+                border-radius: 20px;
+                box-shadow: 10px 10px 30px var(--accent);
+                background-image: url(/img/Unknown-1.jpeg);
+                background-size: cover;
+                background-position: center;
+            }
+             #coderen{
+                border-radius: 20px;
+                box-shadow: 10px 10px 30px var(--accent);
+                background-image: url(/img/Unknown-3.jpeg);
+                background-size: cover;
+                background-position: center;
+            }
+
 
         .imgBox{
             margin: 1rem;
-            border: 1px solid orange;
+            /* border: 1px solid orange; */
             height: 100%;
             width: 80%;
-
-
         }
     }
 }
-.projectenBox{
+.hobbyBox{
     /* border: 1px solid white; */
     height: 90%;
     width: 60%;
@@ -1373,21 +1402,50 @@ table{
     justify-content: center;
     align-items: center;
 
-    .projectenItem{
-        border: 1px solid red;
+    .hobbyItem{
+        /* border: 1px solid red; */
         height: 50%;
         width: 95%;
         margin: 2rem;
 
         header{
-            border: 1px solid blue;
             height: 30%;
             width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem 1.5rem;
+            background: linear-gradient(90deg, rgba(169, 172, 251, 0.27), rgba(136,55,55,0.06));
+            color: var(--accent);
+            font-size: 1.25rem;
+            font-weight: 700;
+            border-radius: 12px 12px 0 0;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.45), inset 0 -1px 0 rgba(255,255,255,0.03);
+            text-transform: capitalize;
         }
         main{
-            border: 1px solid green;
             height: 70%;
             width: 100%;
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 0.75rem;
+            background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.25));
+            border-radius: 0 0 12px 12px;
+            color: var(--muted);
+            line-height: 1.6;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            transition: transform 240ms ease, box-shadow 240ms ease, background 240ms ease;
+        }
+        &:hover{
+            transform: translateY(-8px);
+            box-shadow: 0 24px 60px rgba(0,0,0,0.6);
+        }
+        &:hover main{
+            transform: translateY(-6px);
+            box-shadow: 0 18px 40px rgba(169,172,251,0.08);
         }
 
     }
